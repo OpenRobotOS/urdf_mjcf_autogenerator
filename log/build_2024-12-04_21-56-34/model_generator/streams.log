@@ -1,0 +1,59 @@
+[0.392s] Invoking command in '/home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/src/model_generator': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/build/model_generator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/install/model_generator/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/model_generator build --build-base /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/build/model_generator/build install --record /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/build/model_generator/install.log --single-version-externally-managed install_data
+[0.524s] running egg_info
+[0.524s] creating ../../build/model_generator/model_generator.egg-info
+[0.532s] writing ../../build/model_generator/model_generator.egg-info/PKG-INFO
+[0.532s] writing dependency_links to ../../build/model_generator/model_generator.egg-info/dependency_links.txt
+[0.533s] writing entry points to ../../build/model_generator/model_generator.egg-info/entry_points.txt
+[0.533s] writing requirements to ../../build/model_generator/model_generator.egg-info/requires.txt
+[0.533s] writing top-level names to ../../build/model_generator/model_generator.egg-info/top_level.txt
+[0.533s] writing manifest file '../../build/model_generator/model_generator.egg-info/SOURCES.txt'
+[0.551s] reading manifest file '../../build/model_generator/model_generator.egg-info/SOURCES.txt'
+[0.551s] adding license file 'LICENSE'
+[0.551s] writing manifest file '../../build/model_generator/model_generator.egg-info/SOURCES.txt'
+[0.551s] running build
+[0.551s] running build_py
+[0.551s] creating /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/build/model_generator/build
+[0.551s] creating /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/build/model_generator/build/lib
+[0.552s] creating /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/build/model_generator/build/lib/model_generator
+[0.552s] copying model_generator/model_generator.py -> /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/build/model_generator/build/lib/model_generator
+[0.552s] copying model_generator/__init__.py -> /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/build/model_generator/build/lib/model_generator
+[0.552s] running install
+[0.555s] running install_lib
+[0.564s] creating /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/install/model_generator/lib/python3.12/site-packages/model_generator
+[0.564s] copying /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/build/model_generator/build/lib/model_generator/model_generator.py -> /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/install/model_generator/lib/python3.12/site-packages/model_generator
+[0.564s] copying /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/build/model_generator/build/lib/model_generator/__init__.py -> /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/install/model_generator/lib/python3.12/site-packages/model_generator
+[0.565s] byte-compiling /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/install/model_generator/lib/python3.12/site-packages/model_generator/model_generator.py to model_generator.cpython-312.pyc
+[0.571s] byte-compiling /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/install/model_generator/lib/python3.12/site-packages/model_generator/__init__.py to __init__.cpython-312.pyc
+[0.571s] running install_data
+[0.571s] creating /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/install/model_generator/share/ament_index
+[0.571s] creating /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/install/model_generator/share/ament_index/resource_index
+[0.571s] creating /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/install/model_generator/share/ament_index/resource_index/packages
+[0.572s] copying resource/model_generator -> /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/install/model_generator/share/ament_index/resource_index/packages
+[0.572s] copying package.xml -> /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/install/model_generator/share/model_generator
+[0.572s] creating /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/install/model_generator/share/model_generator/launch
+[0.572s] copying launch/model_generator.launch.py -> /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/install/model_generator/share/model_generator/launch
+[0.572s] creating /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/install/model_generator/share/model_generator/templates
+[0.572s] creating /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/install/model_generator/share/model_generator/templates/urdf
+[0.572s] copying templates/urdf/urdf.template -> /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/install/model_generator/share/model_generator/templates/urdf
+[0.572s] copying templates/urdf/collision.template -> /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/install/model_generator/share/model_generator/templates/urdf
+[0.572s] copying templates/urdf/site.template -> /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/install/model_generator/share/model_generator/templates/urdf
+[0.572s] copying templates/urdf/joint.template -> /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/install/model_generator/share/model_generator/templates/urdf
+[0.572s] copying templates/urdf/link.template -> /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/install/model_generator/share/model_generator/templates/urdf
+[0.572s] creating /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/install/model_generator/share/model_generator/templates/xml
+[0.572s] copying templates/xml/asset.template -> /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/install/model_generator/share/model_generator/templates/xml
+[0.572s] copying templates/xml/site_geom.template -> /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/install/model_generator/share/model_generator/templates/xml
+[0.572s] copying templates/xml/actuator.template -> /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/install/model_generator/share/model_generator/templates/xml
+[0.573s] copying templates/xml/sensor.template -> /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/install/model_generator/share/model_generator/templates/xml
+[0.573s] copying templates/xml/joint.template -> /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/install/model_generator/share/model_generator/templates/xml
+[0.573s] copying templates/xml/body.template -> /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/install/model_generator/share/model_generator/templates/xml
+[0.573s] copying templates/xml/visual_geom.template -> /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/install/model_generator/share/model_generator/templates/xml
+[0.573s] copying templates/xml/collision_geom.template -> /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/install/model_generator/share/model_generator/templates/xml
+[0.573s] copying templates/xml/xml.template -> /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/install/model_generator/share/model_generator/templates/xml
+[0.573s] creating /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/install/model_generator/share/model_generator/rviz
+[0.573s] copying rviz/default.rviz -> /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/install/model_generator/share/model_generator/rviz
+[0.573s] running install_egg_info
+[0.582s] Copying ../../build/model_generator/model_generator.egg-info to /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/install/model_generator/lib/python3.12/site-packages/model_generator-0.0.0-py3.12.egg-info
+[0.583s] running install_scripts
+[0.647s] Installing model_generator script to /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/install/model_generator/lib/model_generator
+[0.647s] writing list of installed files to '/home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/build/model_generator/install.log'
+[0.660s] Invoked command in '/home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/src/model_generator' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/build/model_generator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/install/model_generator/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/model_generator build --build-base /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/build/model_generator/build install --record /home/lizhen/works/code/OpenRobot/urdf_mjcf_autogenerator/build/model_generator/install.log --single-version-externally-managed install_data

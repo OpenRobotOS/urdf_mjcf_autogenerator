@@ -1,1 +1,3 @@
-# urdf_mjcf_autogenerator
+    pip install watchdog
+    sudo apt install python3-watchdog
+    sudo apt install python3-pandas

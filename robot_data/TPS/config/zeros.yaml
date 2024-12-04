@@ -1,0 +1,15 @@
+joint_state_publisher_gui:
+  ros__parameters:
+    zeros:
+      idx01_left_front_abad: 0
+      idx02_left_front_hip: 0.67
+      idx03_left_front_knee: -1.35
+      idx05_left_rear_abad: 0
+      idx06_left_rear_hip: 0.67
+      idx07_left_rear_knee: -1.35
+      idx09_right_front_abad: 0
+      idx10_right_front_hip: 0.67
+      idx11_right_front_knee: -1.35
+      idx13_right_rear_abad: 0
+      idx14_right_rear_hip: 0.67
+      idx15_right_rear_knee: -1.35
